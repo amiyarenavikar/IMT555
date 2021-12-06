@@ -9,7 +9,13 @@
         "name": "Amiya"
       }
     ],
-    "diagrams": [],
+    "diagrams": [
+      {
+        "title": "Threat Model",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
     "reviewer": "Shubha Tripathi"
   }
 }
