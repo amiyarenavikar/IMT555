@@ -419,25 +419,6 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
-            },
-            {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "id": "fbe22e53-9846-4aee-8833-62a36b40ded7"
-              },
-              "target": {
-                "id": "16f2b7a7-8ccf-4c1e-a982-27c09b3d56e0"
-              },
-              "vertices": [
-                {
-                  "x": 1380,
-                  "y": 310
-                }
-              ],
-              "id": "977f7c1c-0068-4590-9882-ca85d57c7269",
-              "z": 15,
-              "attrs": {}
             }
           ]
         },
