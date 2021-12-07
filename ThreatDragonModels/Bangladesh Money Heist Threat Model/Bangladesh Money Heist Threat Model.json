@@ -75,8 +75,8 @@
                 "height": 100
               },
               "position": {
-                "x": 890,
-                "y": 260
+                "x": 940,
+                "y": 257
               },
               "angle": 0,
               "id": "d2d35f55-07c9-4c19-83f2-a170a4a26499",
@@ -127,8 +127,8 @@
                 "height": 80
               },
               "position": {
-                "x": 610,
-                "y": 200
+                "x": 614,
+                "y": 198
               },
               "angle": 0,
               "id": "13980452-fa52-480b-819d-d4801734a26d",
@@ -165,7 +165,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "SWIFT Messaging System"
+                  "text": "SWIFT Messaging Bridge"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -306,8 +306,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1110,
-                "y": 200
+                "x": 1180,
+                "y": 269
               },
               "angle": 0,
               "id": "fbe22e53-9846-4aee-8833-62a36b40ded7",
@@ -326,40 +326,13 @@
               }
             },
             {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 1110,
-                "y": 330
-              },
-              "angle": 0,
-              "id": "16f2b7a7-8ccf-4c1e-a982-27c09b3d56e0",
-              "z": 12,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "SWIFT Messaging System"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Flow",
               "smooth": true,
               "source": {
                 "id": "a1b2d881-be2a-4e12-bd53-fee254d8f3ed"
               },
               "target": {
-                "x": 610,
-                "y": 240
+                "id": "13980452-fa52-480b-819d-d4801734a26d"
               },
               "vertices": [],
               "id": "1afeb711-1f78-4e3f-ad76-54aeb8e7aa98",
@@ -368,7 +341,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 11",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -390,26 +363,120 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "fbe22e53-9846-4aee-8833-62a36b40ded7"
+                "id": "94fafb24-4c7d-45fd-859f-b06c6cf1fdfc"
               },
               "target": {
-                "id": "16f2b7a7-8ccf-4c1e-a982-27c09b3d56e0"
+                "id": "d2d35f55-07c9-4c19-83f2-a170a4a26499"
               },
               "vertices": [],
-              "id": "a1f5b3f3-7737-42d6-a9f1-eaed3fb7f961",
+              "id": "d5bd18ec-7b57-40a0-9bfa-f94a8673a4e4",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 12",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
                   }
                 }
               ],
-              "z": 14,
+              "z": 15,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "d2d35f55-07c9-4c19-83f2-a170a4a26499"
+              },
+              "target": {
+                "id": "fbe22e53-9846-4aee-8833-62a36b40ded7"
+              },
+              "vertices": [],
+              "id": "68586a63-de5c-4268-a04e-eb7b7684abba",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 16,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 918,
+                "y": 465
+              },
+              "angle": 0,
+              "id": "e162d7e5-03f3-4ea0-8466-f0ce87e9a03b",
+              "z": 17,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Transaction\nConfirmation Printer"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "d2d35f55-07c9-4c19-83f2-a170a4a26499"
+              },
+              "target": {
+                "id": "e162d7e5-03f3-4ea0-8466-f0ce87e9a03b"
+              },
+              "vertices": [],
+              "id": "b55925c2-cf63-484f-ad4e-9e00bcb2bd3b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 18,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
